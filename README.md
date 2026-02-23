@@ -11,8 +11,10 @@ Esta guía te muestra cómo usar OpenClaw en modo Cloud, sin instalar modelos pe
 📋 Paso 1 — Instalar curl (si no lo tienes)
 Ubuntu
 sudo apt update && sudo apt install -y curl
+
 macOS (con Homebrew)
 brew install curl
+
 ⚡ Paso 2 — Instalar OpenClaw
 curl -fsSL https://openclaw.ai/install.sh | bash
 
@@ -31,6 +33,7 @@ source ~/.bashrc
 Luego verifica nuevamente:
 
 openclaw --version
+
 🔐 Paso 3 — Login con OpenAI (modo Cloud)
 openclaw onboard --auth-choice openai-codex
 
@@ -41,6 +44,7 @@ openclaw models set openai-codex/gpt-5.3-codex
 
 Esto asegura que OpenClaw use el modelo correcto en tu sesión.
 
+
 📌 Notas importantes
 
 Estás usando modelos en la nube.
@@ -48,6 +52,7 @@ Estás usando modelos en la nube.
 Si tu cuota gratuita se agota, puedes mejorar tu plan en OpenAI.
 
 Más adelante puedes crear otra guía sobre cómo usar OpenClaw con modelos locales (por ejemplo con Ollama).
+
 
 🎉 ¡Listo!
 
