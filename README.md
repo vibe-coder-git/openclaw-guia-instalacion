@@ -7,8 +7,8 @@
 
 ## ✅ Requisitos
 
--   Ubuntu o macOS\
--   Conexión a internet\
+-   Ubuntu o macOS
+-   Conexión a internet
 -   Cuenta en OpenAI
 
 ❌ No necesitas GPU\
