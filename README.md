@@ -91,8 +91,6 @@ Esto asegura que OpenClaw use el modelo correcto.
 
 -   Estás usando modelos en la nube.
 -   Si tu cuota gratuita se agota, puedes mejorar tu plan en OpenAI.
--   Más adelante puedes crear otra guía sobre cómo usar OpenClaw con
-    modelos locales (por ejemplo con Ollama).
 
 ------------------------------------------------------------------------
 
